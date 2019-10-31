@@ -55,6 +55,7 @@ Jeroen is the mobile security lead at NVISO where he is responsible for quality 
 Top contributors have consistently contributed quality content and have at least 500 additions logged in the GitHub repository.
 
 - Pawel Rzepa
+- Vikas Gupta
 - Francesco Stillavato
 - Henry Hoggard
 - Andreas Happe
@@ -104,6 +105,10 @@ While both the MASVS and the MSTG are created and maintained by the community on
 #### Honorable Benefactor
 
 [![NowSecure](Images/Sponsors/NowSecure_logo.png)](https://www.nowsecure.com/ "NowSecure")
+
+#### Donators
+
+The following people and/or companies have donated more than $25,- using Leanpub or other ways: RandoriSec, eShard.
 
 <br/>
 <br/>
