@@ -17,14 +17,12 @@
         },
         {
             "pattern": "^https://source.android.com"
-        },
-        {
-            "pattern": "http://apt.thebigboss.org/repofiles/cydia/"
         }
         
     ],
     "aliveStatusCodes": [
         200,
+        403,
         429
     ],
     "httpHeaders": [
