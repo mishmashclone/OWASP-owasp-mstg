@@ -14,7 +14,14 @@
         },
         {
             "pattern": "^https://developer.android.com"
+        },
+        {
+            "pattern": "^https://source.android.com"
+        },
+        {
+            "pattern": "http://apt.thebigboss.org/repofiles/cydia/"
         }
+        
     ],
     "aliveStatusCodes": [
         200,
