@@ -4,22 +4,24 @@ on:
   push:
     branches:
       - master
+    paths:
+      - '**.md'
   pull_request:
-    branches:
-      - master
+    paths:
+      - '**.md'
 
 jobs:
   markdown-link-check:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v1
+        uses: actions/checkout@master
         with:
           fetch-depth: 1
       - name: link-check
-        uses: gaurav-nelson/github-action-markdown-link-check@820c0581641b6e2fb34ae4d5f93ef4d841fb37e6
+        uses: gaurav-nelson/github-action-markdown-link-check@v1
         with:
-          use-quiet-mode: 'yes'
+          use-quiet-mode: 'no'
           use-verbose-mode: 'yes'
           config-file: '.github/workflows/config/mlc_config.json'
-          folder-path: '.'
+          folder-path: 'Document'
