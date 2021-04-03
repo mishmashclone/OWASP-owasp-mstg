@@ -1,4 +1,4 @@
-name: Check Markdown Links
+name: 🔗 Check Markdown Links
 
 on: [push, pull_request]
 
@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@master
+        uses: actions/checkout@v2
         with:
           fetch-depth: 1
       - name: link-check
@@ -15,5 +15,5 @@ jobs:
         with:
           use-quiet-mode: 'no'
           use-verbose-mode: 'yes'
+          # check-modified-files-only: 'yes'
           config-file: '.github/workflows/config/mlc_config.json'
-          folder-path: 'Document'
