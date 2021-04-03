@@ -17,3 +17,7 @@ jobs:
           use-verbose-mode: 'yes'
           # check-modified-files-only: 'yes'
           config-file: '.github/workflows/config/mlc_config.json'
+
+# known issues: https://developer.android.com
+# https://github.com/tcort/link-check/issues/46
+# https://github.com/tcort/markdown-link-check/issues/159
